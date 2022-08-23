@@ -19,7 +19,7 @@ ${password}=    Kar24156
 *** Test Cases ***
 baseurl Access
     #Create webdriver    Chrome
-	Open browser	    ${baseurl}      chrome
+	Open browser	    ${baseurl}      headlesschrome
 	Set Window Size		1536	722
 	Sleep	15
 
